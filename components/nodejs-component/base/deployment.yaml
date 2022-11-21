@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nodejs-component
     spec:
       containers:
-      - image: quay.io/psturc/test-images:9b02551ffc8f4edbaa6f413217275f4c
+      - image: quay.io/psturc/test-images@sha256:16f8955d62c37991bdea3af6c16199253f18b3aa2cf174f430d1565b7290ba0d
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
